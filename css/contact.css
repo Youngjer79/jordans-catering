@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap");
+.contact {
+  position: relative;
+  padding: 100px 0;
+  min-height: 100vh;
+  color: #fff;
+}
+.contact form {
+  position: relative;
+  z-index: 1000;
+}
+.contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  height: 50px;
+  border-radius: 0;
+  background: #fff;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.contact .form-control:focus,
+.contact .form-control:hover {
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: none;
+}
+.contact .textarea {
+  min-height: 100px;
+}
+.contact label {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.btn-contact {
+}
