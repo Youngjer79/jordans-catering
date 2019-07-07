@@ -16,61 +16,69 @@
   </head>
   <body>
     <!--Start of Header Section-->
-    <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <a href="#" class="navbar-brand"
-            ><span class="title">
-              <!-- <img src="img/logo.png" alt="" class="logo" />-->
-              Jordan's Catering</span
-            ></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Catering Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"> <img src="/img/logo.png" alt=""/><span>Jordan's</span> Catering</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
-        </nav>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <img src="" alt="" class="header-img" />
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="hero-text text-center">
-            <h1>
-              gallery jordan's catering
-            </h1>
-          </div>
-        </div>
-      </div>
-    </header>
-
+    </nav>
+    <div id="gallery" class="gallery">
+         <div class="container">
+           <div class="row justify-content-center">
+              <h1 style="color: #fff; font-size: 3rem; font-weight: 400; font-family: 'Poppins', sans-serif; margin: 20px 10px;">Gallery</h1>
+               <div class="col-md-8">
+                   <div class="row mb-4">
+                       <a href="/img/img21.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img21.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img18.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img18.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img9.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img9.jpg" class="img-fluid">
+                       </a>
+                   </div>
+                   <div class="row mb-4">
+                       <a href="/img/img7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img7.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img8.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img22.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img22.jpg" class="img-fluid">
+                       </a>
+                   </div>
+                   <div class="row mb-4">
+                       <a href="/img/img20.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img20.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img19.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img19.jpg" class="img-fluid">
+                       </a>
+                       <a href="/img/img16.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                           <img src="/img/img16.jpg" class="img-fluid">
+                       </a>
+                   </div>
+               </div>
+           </div>
+         </div>
     <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

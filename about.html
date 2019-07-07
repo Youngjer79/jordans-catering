@@ -11,66 +11,156 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <script src="https://kit.fontawesome.com/cab53fa7cb.js"></script>
-    <title>Jordan's Catering</title>
+    <title>About Jordan's Catering | Jordan's Catering</title>
   </head>
   <body>
     <!--Start of Header Section-->
-    <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <a href="#" class="navbar-brand"
-            ><span class="title">
-              <!-- <img src="img/logo.png" alt="" class="logo" />-->
-              Jordan's Catering</span
-            ></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Catering Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <header class="about-header">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand"> <img src="/img/logo.png" alt=""/><span>Jordan's</span> Catering</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarResponsive"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
         </nav>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <img src="" alt="" class="header-img" />
+    </header>
+    <section class="about">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <div class="container">
+        <h4>Jordan's Catering</h4>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Jordan's Hotdog and Mac first open it's doors on Sept. 3, 2012,
+              Jordan’s is named after the owners son. “He likes his hot dogs
+              with mac and cheese. He was my inspiration,”~ Corey Spruill.
+            </p>
+            <br />
+
+            <p>
+              For 17 years Corey has baked pizza at Frank Pepe’s Pizzeria on
+              Wooster Street; he began there as a teenager after eating there
+              often with his mom, and now his mom along with his wife and
+              father.
+            </p>
+          </div>
+            <div class="col-sm-4 center">
+              <div class="embed-responsiveembed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/fejZ3QUYQ9I"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+               ></iframe>
+              </div>
+             </div>     
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="hero-text text-center">
-            <h1>
-              about jordan's catering
-            </h1>
+      </section>
+      <section class="catering text-center">   
+        <div class="catering-menu">
+         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <h4>Check out our Catering Menu</h4>
+           <p style="color:#fff; font-size: .8rem;">Our prices are subject to sales tax, gratuity not included.</p>
+          <input type="checkbox" name="catering menu" id="menu" />
+          <label for="menu">Catering Menu <i class="fas fa-chevron-down"></i></label>
+          <div class="multi-level">
+            <div class="item">
+              <input type="checkbox" name="" id="A" />
+              <label for="A">Meats <i class="fas fa-times-circle"></i></label>
+              <ul>
+                <li>Hot Dogs Full Tray Half Tray</li>
+                <li>Burgers Full Tray Half Tray</li>
+                <li>Philly Cheese Steak Full Tray Half Tray</li>
+                <li>Georgia Hots Full Tray Half Tray</li>
+                <li>
+                  Wings (Crispy and always a favorite) Full Tray $100.00 Half
+                  $50.00
+                </li>
+              </ul>
+            </div>
+            <div class="item">
+              <input type="checkbox" name="" id="B" />
+              <label for="B">Sides <i class="fas fa-times-circle"></i></label>
+              <ul>
+                <li>Mac & Cheese Full Tray $85.00 Half Tray $45.00</li>
+                <li>Mac & Bacon Full Tray $110.00 Half Tray $60.00</li>
+                <li>Chili & Mac Full Tray $115.00 Half Tray $65.00</li>
+                <li>Chili Mac Supreme Full Tray $85.00 Half Tray $45.00</li>
+              </ul>
+            </div>
+            <div class="item">
+              <input type="checkbox" name="" id="C" />
+              <label for="C"
+                >Additional Items <i class="fas fa-times-circle"></i
+              ></label>
+              <ul>
+                <li>Salads(Mixed Greens) Half Tray $40.00</li>
+                <li>Banana pudding Full Tray $100.00 Half Tray $50.00</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </header>
-
+      </section>
+    </section>
+    <!-- Footer -->
+    <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-md-4">
+          <h5>Jordan's Hotdog & Mac</h5>
+          <hr class="light">
+          <p>203-555-5555</p>
+          <p>email@myemail.com</p>
+          <p>970 State Street</p>
+          <p>New Haven, CT 06501</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <h5>Our Hours</h5>
+            <hr class="light">
+            <p>Monday: 11am-4pm</p>
+            <p>Tuesday - Saturday: 11am -8pm</p>
+            <p>Sunday: closed</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h6>Follow Us on Social Media</h6>
+          <hr class="light">
+           <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        </div>
+       <div class="col-12">
+         <hr class="light">
+         <h5>&copy; Created by Revolving World Media 2019</h5>
+       </div>
+      </div>
+    </div>
+    </footer>
     <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
