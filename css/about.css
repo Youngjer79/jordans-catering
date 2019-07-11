@@ -37,8 +37,10 @@ body {
 
 .video {
   position: relative;
-  left: 300px;
-  
+}
+
+.video iframe{
+  width: 100%;
 }
 
 /* Catering menu */
