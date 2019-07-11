@@ -38,6 +38,7 @@ body {
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
+  max-width: 100%;
 }
 
 .video-wrapper iframe{
