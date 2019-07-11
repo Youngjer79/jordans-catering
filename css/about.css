@@ -38,8 +38,8 @@ body {
 .video-wrapper {
   position: absolute;
   padding-bottom: 56.25%;
-  top: 0;
-  left: 0;
+  top: 50;
+  left: 50;
 }
 
 .video-wrapper iframe{
