@@ -10,10 +10,10 @@ body {
 } 
 
 .about-header {
-  height: 60vh;
-  width: 100%;
+  height: "60vh";
+  width: "100%";
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(img/img17.jpg);
+    url("img/img17.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -80,10 +80,10 @@ label {
 }
 
 .catering-menu {
-  width: 100%;
-  height: 40vh;
+  width: "100%";
+  height: "40vh";
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(img/img12.jpg);
+    url("img/img12.jpg");
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
