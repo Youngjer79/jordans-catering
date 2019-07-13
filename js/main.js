@@ -12,3 +12,9 @@ $(".carousel-control-prev").click(function() {
 $(".carousel-control-next").click(function() {
   $("#slides").carousel("next");
 });
+
+// Gallery Lightbox
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
