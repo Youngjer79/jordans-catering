@@ -1,316 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <script src="https://kit.fontawesome.com/cab53fa7cb.js"></script>
-    <title>Jordan's Catering</title>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand"> <img src="/img/logo.png" alt=""/><span>Jordan's</span> Catering</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/img14.jpg" alt="" />
-          <div class="carousel-caption">
-            <h1 class="display-2">Jordan's Catering</h1>
-            <h3>Home of the Mac Dog, a New Haven favorite</h3>
-            <button type="button" class="btn btn-outline-light btn-lg">
-              <a href="about.html#catering-menu">Catering Menu</a>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-              <a href="tel:203-789-2244">Contact Us</a> 
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/img13.jpg" alt="" />
-          <div class="carousel-caption">
-            <h1 class="display-2">Jordan's Catering</h1>
-            <h3>Home of the Mac Dog, a New Haven favorite</h3>
-            <button type="button" class="btn btn-outline-light btn-lg">
-                <a href="about.html#catering-menu">Catering Menu</a>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-                <a href="tel:203-789-2244">Contact Us</a> 
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/img11.jpg" alt="" />
-          <div class="carousel-caption">
-            <h1 class="display-2">Jordan's Catering</h1>
-            <h3>Home of the Mac Dog, a New Haven favorite</h3>
-            <button type="button" class="btn btn-outline-light btn-lg">
-                <a href="about.html#catering-menu">Catering Menu</a>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-                <a href="tel:203-789-2244">Contact Us</a> 
-            </button>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <!-- Jumbotron -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://kit.fontawesome.com/cab53fa7cb.js"></script>
+  <title>Jordan's Hotdog & Mac Catering</title>
+</head>
+<body>
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-          <p class="lead">
-            Jordan's Catering is a branch Jordan's Hotdog and Mac Restaurant
-            located in New Haven,CT. Jordan's Hot Dog and Mac is a family owned
-            and operated business.
-          </p>
+      <a href="index.html" class="navbar-brand"><span>Jordan's</span> Hotdogs & Mac</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#catering-menu" class="nav-link">Catering Menu</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Image Slider -->
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid" src="img/img1.jpg" alt="" style="width:100%"/>
+        <div class="carousel-caption">
+          <h4 class="display-2">Jordan's Hotdogs & Mac<br> Catering</h4>
+          <h3>Home of the Mac Dog, a New Haven favorite</h3>
+          <a href="https://www.ezcater.com/catering/pvt/my-restaurant/jordans-hot-dogs-and-mac-new-haven" class="btn btn-primary btn-lg"  target="_blank"><i class="fas fa-book-open"></i>Order Now</a>
+          <a href="tel:203-789-2244" class="btn btn-primary btn-lg"><i class="fas fa-phone-square-alt"></i> Contact Us</a> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="img/img2.jpg" alt="" style="width:100%" />
+        <div class="carousel-caption">
+          <h4 class="display-2">Jordan's Hotdogs & Mac<br> Catering</h4>
+          <h3>Home of the Mac Dog, a New Haven favorite</h3>
+          <a href="https://www.ezcater.com/catering/jordans-hot-dogs-and-mac-new-haven" class="btn btn-primary btn-lg"  target="_blank"><i class="fas fa-book-open"></i>Order Now</a>
+          <a href="tel:203-789-2244" class="btn btn-primary btn-lg"><i class="fas fa-phone-square-alt"></i> Contact Us</a> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="img/img3.jpg" alt="" style="width:100%" />
+        <div class="carousel-caption">
+          <h4 class="display-2">Jordan's Hotdogs & Mac<br> Catering</h4>
+          <h3>Home of the Mac Dog, a New Haven favorite</h3>
+          <a href=https://www.ezcater.com/catering/jordans-hot-dogs-and-mac-new-haven" class="btn btn-primary btn-lg"  target="_blank"><i class="fas fa-book-open"></i>Order Now</a>
+          <a href="tel:203-789-2244" class="btn btn-primary btn-lg"><i class="fas fa-phone-square-alt"></i> Contact Us</a> 
         </div>
       </div>
     </div>
-    <!-- Welcome Section -->
-    <div class="containe-fluid padding">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 class="display-4">
-            Jordan's Catering will bring the restaurant to you!
-          </h1>
-        </div>
-        <hr />
-        <div class="col-12">
-          <p class="lead">
-            Jordan's makes it easy to order food for your next party, fundraiser
-            or event in Connecticut. Take a look at our catering menu and place
-            your order online!
-          </p>
-        </div>
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- Image Slider Ends -->
+  <!-- Welcome Section -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-md-12">
+        <h1 class="display-4">Let Us Cater Your Next Event</h1>
+      </div>
+      <hr />
+      <div class="col-12">
+        <p class="lead">
+          Jordan's makes it easy to order food for your next party, fundraiser
+          or event. Take a look at our catering menu and place
+          your order online!
+        </p>
       </div>
     </div>
-    <!-- Three Column Section -->
-    <div class="container-fluid padding">
-      <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="box">
-              <div class="box-img1"></div>
-          </div>
-          <h3>We got everything that you need</h3>
-          <p>We set up and break down all cooking equipment.</p>
+  </div>
+<!-- Welcome Section Ends -->
+<!-- Three Column Section -->
+ <div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="box">
+          <div class="box-img1"></div>
+      </div>
+      <h3>Planning a party...</h3>
+      <p class="lead">
+        If you’re planning a get-together, the last thing you want to do is
+        cook. We’ve catered all types of events, from family reunions, corporate fundraisers, and picnics to birthday parties,wedding receptions, and more!
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="box">
+            <div class="box-img2"></div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="box">
-                <div class="box-img2"></div>
+        <h3>We got everything that you need</h3>
+        <p class="lead">We understand your needs and we will 
+          cater the food to satisfy the biggest criteria of them all, both look and taste.
+          Jordan's Catering provides the same quality food service and
+        cleanliness that our restaurant do to make your event a success.
+        </p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="box">
+            <div class="box-img3"></div>
+        </div>
+       <h3>We Deliver</h3>
+        <p class="lead">
+          We deliver your catering order to you,which leaves you more time to enjoy your company!
+        </p>
+      </p>
+    </div>
+  </div>
+  <hr class="my-4" />
+</div>
+<!-- Three Column Section Ends -->
+<!-- Two Column About Section -->
+<section id="about" class="about">
+    <div class="container-fluid">
+        <div class="row about text-center">
+            <div class="col-md-12">
+              <h2 class="display-4">About Jordan's Hotdogs & Mac</h2>
             </div>
-          <h3>Order online</h3>
-          <p>
-            We make it easy to order food for your next party, fundraiser
-            or event in Connecticut. Take a look at our catering menu and place
-            your order online!
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="box">
-                <div class="box-img3"></div>
-            </div>
-          <h3>Planning a party...</h3>
-          <p>
-            If you’re planning a get-together, the last thing you want to do is
-            cook. Jordan's Catering provides the same quality food service and
-            cleanliness that our restaurant do to make your event a success.
-          </p>
-          </p>
-        </div>
-      </div>
-      <hr class="my-4" />
-    </div>
-    <!-- Two Column Information Section -->
-    <div class="container-fluid padding">
-      <div class="row padding">
-        <div class="col-lg-6">
-          <h2>With our catering packages, you won’t have to worry about
-              planning the menu</h2>
-          <p>
-            We cook the food and clean up the mess,which leaves 
-            you more time to enjoy your company!
-          </p>
-        </div>
-        <div class="col-lg-6">
-            <div class="box">
-                <div class="box-img4"></div>
-            </div>
-        </div>
-        <div class="col-lg-6 order-2 order-md-1">
-            <div class="box">
-                <div class="box-img5"></div>
-            </div>
-        </div>
-        <div class="col-lg-6 order-1 order-md-2">
-          <h2>We have a variety of packages to suit different size parties.</h2>
-          <p>
-            We’ve catered all types of events, from family reunions, corporate
-            fundraisers, and picnics to birthday parties,wedding receptions, and
-            more!
-          </p>
-          
-        </div>
-      </div>
-    </div>
-    <hr class="my-4" />
-    <!-- Review Section -->
-    <div class="container-fluid padding">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 class="display-4">Review</h1>
-          <h3>Why choose Jordan's Catering?</h3>
-          <p>
-            You don't to take our word for it, just see what our happy clients
-            are saying about the best hotdogs in New Haven and one of best in
-            Connecticut!
-          </p>
-        </div>
-        <hr />
-      </div>
-    </div>
-    <!-- Cards -->
-    <div class="container-fluid padding">
-      <div class="row padding">
-        <div class="col-md-4">
-          <div class="card">
-            <i class="fas fa-quote-left"></i>
-            <div class="card-body">
-                <h4 class="card-title">DogMan "DOG MAN SAC" S.</h4>
-              <p class="card-text">
-                RATINGS:... John: 9/10, Me: 8.5/10. You can tell, this place
-                knows what they're doing. So, if you are in the New Haven area,
-                come down here, it's on State Street (970). I enjoyed it and I
-                recommend this place hands down.
+            <hr />
+            <div class="col-md-6">
+              <h4>Our Story</h4>
+                <p class="lead">
+                  Jordan's Hotdog & Mac first open it's doors on Sept. 3, 2012,Jordan’s is named after the owners son. 
+                “He likes his hot dogs with mac and cheese. He was my inspiration,”~ Corey Spruill.The idea to open Jordan's 
+                came from being a starting off baking pizzas at Frank Pepe’s Pizzeria on Wooster Street for 17 years.
               </p>
-              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <div class="box-img4"></div>
+                </div>
+            </div>
+            <div class="col-md-6 order-2 order-md-1">
+                <div class="box">
+                    <div class="box-img5"></div>
+                </div>
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+              <h4>What we offer</h4>
+                <p class="lead">
+                  Two classic American dishes together at last. Our signature Mac Attack hot dogs are topped with a generous helping of home-style mac & cheese for the
+                  ultimate comfort food.
+               <br>
+               Need more? We offer a full menu of gourmet hot dogs, with toppings that range from Bacon & BBQ to the chili-topped Californian.
+               Order your catering from us for a lunch that’ll really get your guests’ attention.
+              </p>       
             </div>
           </div>
         </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <i class="fas fa-quote-left"></i>
-            <div class="card-body">
-             <h4 class="card-title">Melissa D.</h4>
-              <p class="card-text">
-                I am a self proclaimed hot dog junkie.. it's super serious. * I
-                give these dogs 4 buns out of 5* The bun was perfectly grilled
-                with butter.. I had the bbq bacon dog..good
-                lord is it lovely.
-              </p>
-              <i class="fas fa-quote-right"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <i class="fas fa-quote-left"></i>
-            <div class="card-body">
-              <h4 class="card-title">Christian C.</h4>
-              <p class="card-text">
-                  Great service and food is excellent. Best chilli dog ever. If you come to new haven you have to stop at Jordan's
-              </p>
-              <i class="fas fa-quote-right"></i>
-            </div>
-          </div>
+</section>
+<section>
+<div class="video-area">
+  <div class="container">
+    <h4 style="text-align: center;">What local media has to say about Jordan’s Hotdog and Mac</h4>
+     <div class="row">
+      <div class="col-lg-12">
+        <div class="video-wrapper">
+           <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/fejZ3QUYQ9I"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+           ></iframe>
         </div>
       </div>
+      <br><br>
+      <div class="col-lg-12 text-center">
+        <h6>Jordan's was named amongst the best hotdogs in Connecticut by the Hartford Current<br>
+           <a href="https://www.courant.com/hartford-magazine/hc-nhl-hot-dog-frankfurters-20150827-story.html">Top Dogs: A Delicious Dozen selection</a> 
+        </h6>
+      </div>
     </div>
-    <!-- Footer -->
-    <footer>
-    <div class="container-fluid padding">
-      <div class="row text-center padding">
-        <div class="col-md-4">
-          <h5>Jordan's Hotdog & Mac</h5>
-          <hr class="light">
-          <p>203-555-5555</p>
-          <p>email@myemail.com</p>
-          <p>970 State Street</p>
-          <p>New Haven, CT 06501</p>
-        </div>
-        <div class="col-md-4">
-            <hr class="light">
-            <h5>Our Hours</h5>
-            <hr class="light">
-            <p>Monday: 11am-4pm</p>
-            <p>Tuesday - Saturday: 11am -8pm</p>
-            <p>Sunday: closed</p>
-        </div>
-        <div class="col-md-4">
-          <hr class="light">
-          <h6>Follow Us on Social Media</h6>
-          <hr class="light">
-           <div class="col-12 social padding">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
-        </div>
-        </div>
-       <div class="col-12">
-         <hr class="light">
-         <h5>&copy; Created by Revolving World Media 2019</h5>
+  </div>
+</div>
+</section> 
+<!-- About Section End -->
+<!-- Catering Menu Section -->
+<section id="catering-menu" class="catering text-center mt-5">
+  <div class="catering-menu">
+    <div class="col-xs-12">
+     <h4 style="margin-top: 20px; text-align: center; top: 0; left: 0;">Check out our Catering Menu</h4>
+      <p style="color:#fff; font-size: .8rem;">Our prices are subject to sales tax, gratuity not included.</p>
+     <input type="checkbox" name="catering menu" id="menu" />
+     <label for="menu">Catering Menu <i class="fas fa-chevron-down"></i></label>
+     <div class="multi-level">
+       <div class="item">
+         <p style="font-size: .8rem;">(Full Trays Feed 18 to 20 people, Half Trays feed 8 to 10 people)</p>
+         <input type="checkbox" name="" id="A" />
+         <label for="A">Meats <i class="fas fa-times-circle"></i></label>
+         <ul>
+           <li><span>Hot Dogs</span><br>
+             Full Tray: $90.00 
+             Half Tray: $55.00</li>
+           <li><span>Philly Cheese Steak</span><br>(Comes with sub rolls)<br>
+             Full Tray: $120.00
+             Half Tray:$65.00</li>
+           <li><span>Georgia Hots</span><br>
+             Full Tray:$ 
+             Half Tray:$</li>
+           <li>
+             <span>Wings</span><br> (Flavors: Barbecue,Buffalo,Garlic Parmesan,Jordan Sauce, Mango Jabanoero,Sweet Chili)<br>
+             Full Tray: $100.00
+             Half Tray: $50.00
+           </li>
+         </ul>
        </div>
+       <div class="item">
+         <input type="checkbox" name="" id="B" />
+         <label for="B">Sides <i class="fas fa-times-circle"></i></label>
+         <ul>
+           <li><span>Mac & Cheese</span><br>
+               Full Tray: $85.00 
+               Half Tray: $45.00</li>
+           <li><span>Mac & Bacon</span><br>
+               Full Tray: $110.00
+               Half Tray: $60.00</li>
+           <li><span>Chili & Mac</span><br>
+               Full Tray: $115.00 
+               Half Tray: $65.00</li>
+           <li><span>Chili Mac Supreme</span> <br>
+               Full Tray: $85.00
+               Half Tray: $45.00</li>
+         </ul>
+       </div>
+       <div class="item">
+         <input type="checkbox" name="" id="C" />
+         <label for="C"
+           >Additional Items <i class="fas fa-times-circle"></i
+         ></label>
+         <ul>
+           <li><span>Salads</span> <br>(Salad Dressing: Balsamic Vinaigrette, Blue Cheese, Italian, Ranch)<br>
+               Full Tray: $69.00
+               Half Tray: $40.00</li>
+           <li><span>Banana pudding</span><br>
+               Full Tray: $100.00 
+               Half Tray: $50.00</li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <a href="https://www.ezcater.com/catering/jordans-hot-dogs-and-mac-new-haven" class="btn btn-primary btn-lg"  target="_blank"><i class="fas fa-book-open"></i>Order Now</a>
+ </div>
+</section>
+<!-- Catering Menu Section End -->
+<!-- Gallery Section -->
+<section class="gallery text-center">
+  <div class="container">
+    <h2 id="gallery" class="title">Gallery of Jordan's Catering</h2>
+   <div class="row justify-content-center">
+       <div class="col-md-8">
+           <div class="row mb-4">
+               <a class="col-sm-4" href="/img/img10.jpg" data-lightbox="mygallery" data-title="Mac Dog">
+                   <img src="/img/img10.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img11.jpg" data-lightbox="mygallery" data-title="Buffalo Wings">
+                   <img src="/img/img11.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img12.jpg" data-lightbox="mygallery" data-title="Bacon-Chili Dog">
+                   <img src="/img/img12.jpg"class="img-fluid" style="margin: 5px">
+               </a>
+           </div>
+           <div class="row mb-4">           
+               <a class="col-sm-4" href="/img/img13.jpg" data-lightbox="mygallery" data-title="Banana Pudding">
+                   <img src="/img/img13.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img14.jpg" data-lightbox="mygallery" data-title="Georgia Hots with Cheese">
+                   <img src="/img/img14.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img16.jpg" data-lightbox="mygallery" data-title="Grilled Chicken Salad with Jordan Sauce">
+                   <img src="/img/img16.jpg"class="img-fluid" style="margin: 5px">
+               </a>
+           </div>
+           <div class="row mb-4">           
+               <a class="col-sm-4" href="/img/img17.jpg" data-lightbox="mygallery" data-title="Chili Mac Bowl">
+                   <img src="/img/img17.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img15.jpg" data-lightbox="mygallery" data-title="Philly CheeseSteak & Sweet Chili Wings">
+                   <img src="/img/img15.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+               <a class="col-sm-4" href="/img/img8.jpg" data-lightbox="mygallery" data-title="Mac & Cheese">
+                   <img src="/img/img8.jpg" class="img-fluid" style="margin: 5px">
+               </a>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- Gallery Section End -->
+<!-- Contact Section -->
+<section id="contact" class="contact"><div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="headerText text-center">
+          <h2 style="margin-top: 100px;">
+            Contact Us
+          </h2>
+          <p>
+            We’re based in New Haven, CT 06511 and provide catering to
+            Greater New Haven area and and surrounding areas of
+            Connecticut.<br />
+            If you have any questions, feel free to call Corey at
+            203-789-2244 or send us a message!
+          </p>
+        </div>
       </div>
     </div>
-    </footer>
-  
-    <script src="js/main.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="offset-sm-2 col-sm-8">
+      <form
+        action="https://formspree.io/revolvingworldmedia@gmail.com"
+        method="POST"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      >
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            class="form-control"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name="_replyto"
+            class="form-control"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            name=""
+            class="form-control"
+            placeholder="Phone"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            name="message"
+            id=""
+            cols="40"
+            rows="10"
+            class="form-control"
+            placeholder="Leave a message"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <input
+            type="submit"
+            value="Submit"
+            class="btn btn-primary btn-lg btn-block"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Contact Section End -->
+<!-- Footer -->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-md-4">
+        <h5>Jordan's Hotdog & Mac</h5>
+        <hr class="light">
+        <p>203-789-2244</p>
+        <p>email@myemail.com</p>
+        <p>970 State Street</p>
+        <p>New Haven, CT 06501</p>
+      </div>
+      <div class="col-md-4">
+          <hr class="light">
+          <h5>Our Hours</h5>
+          <hr class="light">
+          <p>Monday: 11am-4pm</p>
+          <p>Tuesday - Saturday: 11am -8pm</p>
+          <p>Sunday: closed</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h6>Follow Us on Social Media</h6>
+        <hr class="light">
+         <div class="col-12 social padding">
+        <a href="https://www.facebook.com/hotdogsdogsandmac"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/hotdogsandmac/"><i class="fab fa-instagram"></i></a>
+        <a href="#"><img class="logo"src="/img/logo.png" alt=""></a>
+      </div>
+      </div>
+     <div class="col-12">
+       <hr class="light">
+       <h5>&copy; Created by Revolving World Media 2019</h5>
+     </div>
+    </div>
+  </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+</body>
 </html>
